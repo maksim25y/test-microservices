@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/test-entity/pom.xml" />
         <option value="$PROJECT_DIR$/test-todo/pom.xml" />
         <option value="$PROJECT_DIR$/test-items/pom.xml" />
+        <option value="$PROJECT_DIR$/test-users/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />

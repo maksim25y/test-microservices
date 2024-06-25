@@ -5,23 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7756df58-4518-446b-8ff4-bd07ebcf9ab0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-items/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-items/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-items/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-items/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-items/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/TestItemsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/dto/ItemDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/repositories/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/service/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-items/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-users/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-users/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-users/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-users/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-users/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-users/src/main/java/ru/mudan/testusers/TestUsersApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-users/src/main/java/ru/mudan/testusers/controller/UsersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-users/src/main/java/ru/mudan/testusers/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-users/src/main/java/ru/mudan/testusers/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-users/src/main/java/ru/mudan/testusers/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-users/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-gateway/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +115,13 @@
       <recent name="D:\NewIdeaApps\test-microservices\test-items\src\main\java\ru\mudan\testtodo" />
       <recent name="D:\NewIdeaApps\test-microservices\test-entity\src\main\java\ru\mudan\testentity" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.mudan.testusers.dto" />
+      <recent name="ru.mudan.testusers.service" />
+      <recent name="ru.mudan.testusers.controller" />
+      <recent name="ru.mudan.testusers.repository" />
+      <recent name="ru.mudan.testusers.entity" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -169,7 +174,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestUsersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="test-users" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.mudan.testusers.TestUsersApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Spring Boot.TestUsersApplication" />
       <item itemvalue="Spring Boot.TestConfigApplication" />
       <item itemvalue="Spring Boot.TestEntityApplication" />
       <item itemvalue="Spring Boot.TestGatewayApplication" />
@@ -199,7 +212,7 @@
       <updated>1719239972451</updated>
       <workItem from="1719239973587" duration="2091000" />
       <workItem from="1719256372178" duration="2695000" />
-      <workItem from="1719315454087" duration="3828000" />
+      <workItem from="1719315454087" duration="5050000" />
     </task>
     <task id="LOCAL-00001" summary="created server">
       <option name="closed" value="true" />
@@ -225,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719259094109</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added module for items">
+      <option name="closed" value="true" />
+      <created>1719325552919</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719325552920</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +257,7 @@
     <MESSAGE value="created server" />
     <MESSAGE value="added gateway,config" />
     <MESSAGE value="added module with entities" />
-    <option name="LAST_COMMIT_MESSAGE" value="added module with entities" />
+    <MESSAGE value="added module for items" />
+    <option name="LAST_COMMIT_MESSAGE" value="added module for items" />
   </component>
 </project>
