@@ -5,19 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7756df58-4518-446b-8ff4-bd07ebcf9ab0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test-entity/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-entity/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-entity/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-entity/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-entity/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-entity/src/main/java/ru/mudan/testentity/entity/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-entity/src/main/java/ru/mudan/testentity/entity/TestEntityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-entity/src/main/java/ru/mudan/testentity/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-entity/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-items/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-items/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-items/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-items/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-items/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/TestItemsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/dto/ItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/repositories/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-items/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-config/src/test/java/ru/mudan/testconfig/TestConfigApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-gateway/src/test/java/ru/mudan/testgateway/TestGatewayApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-server/src/test/java/ru/mudan/testserver/TestServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-gateway/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +44,13 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,6 +75,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -74,12 +86,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.TestConfigApplication.executor": "Run",
     "Spring Boot.TestGatewayApplication.executor": "Run",
+    "Spring Boot.TestItemsApplication.executor": "Run",
     "Spring Boot.TestServerApplication.executor": "Run",
+    "Spring Boot.TestTodoApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/NewIdeaApps/test-microservices/test-entity/src/main/java/ru/mudan/testentity",
+    "last_opened_file_path": "D:/NewIdeaApps/test-microservices/test-items/src/main/java/ru/mudan/testtodo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,10 +105,16 @@
     "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "File.Encoding",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\NewIdeaApps\test-microservices\test-items\src\main\java\ru\mudan\testtodo" />
       <recent name="D:\NewIdeaApps\test-microservices\test-entity\src\main\java\ru\mudan\testentity" />
     </key>
   </component>
@@ -107,7 +127,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TestServerApplication">
+  <component name="RunManager" selected="Spring Boot.TestItemsApplication">
     <configuration name="TestConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="test-config" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.mudan.testconfig.TestConfigApplication" />
@@ -129,6 +149,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestItemsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="test-items" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.mudan.testtodo.TestItemsApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mudan.testtodo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="test-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.mudan.testserver.TestServerApplication" />
@@ -136,6 +169,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.TestConfigApplication" />
+      <item itemvalue="Spring Boot.TestEntityApplication" />
+      <item itemvalue="Spring Boot.TestGatewayApplication" />
+      <item itemvalue="Spring Boot.TestServerApplication" />
+      <item itemvalue="Spring Boot.TestItemsApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.TestItemsApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -153,7 +198,8 @@
       <option name="presentableId" value="Default" />
       <updated>1719239972451</updated>
       <workItem from="1719239973587" duration="2091000" />
-      <workItem from="1719256372178" duration="2395000" />
+      <workItem from="1719256372178" duration="2695000" />
+      <workItem from="1719315454087" duration="3828000" />
     </task>
     <task id="LOCAL-00001" summary="created server">
       <option name="closed" value="true" />
@@ -171,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719257958871</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added module with entities">
+      <option name="closed" value="true" />
+      <created>1719259094109</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719259094109</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +235,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="created server" />
     <MESSAGE value="added gateway,config" />
-    <option name="LAST_COMMIT_MESSAGE" value="added gateway,config" />
+    <MESSAGE value="added module with entities" />
+    <option name="LAST_COMMIT_MESSAGE" value="added module with entities" />
   </component>
 </project>
