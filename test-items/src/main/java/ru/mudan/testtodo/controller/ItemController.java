@@ -8,6 +8,7 @@ import ru.mudan.testentity.entity.Item;
 import ru.mudan.testtodo.dto.ItemDTO;
 import ru.mudan.testtodo.service.ItemService;
 import ru.mudan.testutils.resttemplate.UserRestBuilder;
+import ru.mudan.testutils.resttemplate.UserWebClientBuilder;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -17,10 +18,12 @@ import java.util.stream.Collectors;
 public class ItemController {
     private final ItemService itemService;
     private final UserRestBuilder userRestBuilder;
+    private final UserWebClientBuilder userWebClientBuilder;
     @Autowired
-    public ItemController(ItemService itemService, UserRestBuilder userRestBuilder) {
+    public ItemController(ItemService itemService, UserRestBuilder userRestBuilder, UserWebClientBuilder userWebClientBuilder) {
         this.itemService = itemService;
         this.userRestBuilder = userRestBuilder;
+        this.userWebClientBuilder = userWebClientBuilder;
     }
     @GetMapping("/all")
     public ResponseEntity<List<ItemDTO>> getAllItems(){
@@ -34,10 +37,14 @@ public class ItemController {
     }
     @PostMapping("/add")
     public ResponseEntity addItem(@RequestBody Item item){
-        if(userRestBuilder.userExists(item.getUserId())){
+        if(userWebClientBuilder.userExists(item.getUserId())){
             itemService.addItem(item);
             return new ResponseEntity("Success", HttpStatus.OK);
         }
+//        if(userRestBuilder.userExists(item.getUserId())){
+//            itemService.addItem(item);
+//            return new ResponseEntity("Success", HttpStatus.OK);
+//        }
         return new ResponseEntity("Error", HttpStatus.BAD_REQUEST);
     }
 }
