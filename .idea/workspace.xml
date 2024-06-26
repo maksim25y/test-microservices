@@ -5,21 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7756df58-4518-446b-8ff4-bd07ebcf9ab0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test-users/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-users/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-users/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-users/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-users/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-users/src/main/java/ru/mudan/testusers/TestUsersApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-users/src/main/java/ru/mudan/testusers/controller/UsersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-users/src/main/java/ru/mudan/testusers/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-users/src/main/java/ru/mudan/testusers/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-users/src/main/java/ru/mudan/testusers/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-users/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-utils/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-utils/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-utils/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-utils/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-utils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-utils/src/main/java/ru/mudan/testutils/TestUtilsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-utils/src/main/java/ru/mudan/testutils/resttemplate/UserRestBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-utils/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-utils/src/test/java/ru/mudan/testutils/TestUtilsApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-items/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-items/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-users/src/main/java/ru/mudan/testusers/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-users/src/main/java/ru/mudan/testusers/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-users/src/main/java/ru/mudan/testusers/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-users/src/main/java/ru/mudan/testusers/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,14 +87,15 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.TestConfigApplication.executor": "Run",
     "Spring Boot.TestGatewayApplication.executor": "Run",
-    "Spring Boot.TestItemsApplication.executor": "Run",
+    "Spring Boot.TestItemsApplication.executor": "Debug",
     "Spring Boot.TestServerApplication.executor": "Run",
     "Spring Boot.TestTodoApplication.executor": "Run",
+    "Spring Boot.TestUsersApplication.executor": "Debug",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/NewIdeaApps/test-microservices/test-items/src/main/java/ru/mudan/testtodo",
+    "last_opened_file_path": "D:/NewIdeaApps/testApiMonolit",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -110,6 +114,9 @@
     ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\NewIdeaApps\test-microservices\test-items\src\main\java\ru\mudan\testtodo" />
@@ -132,7 +139,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TestItemsApplication">
+  <component name="RunManager" selected="Spring Boot.TestUsersApplication">
     <configuration name="TestConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="test-config" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.mudan.testconfig.TestConfigApplication" />
@@ -181,7 +188,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestUtilsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="test-utils" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.mudan.testutils.TestUtilsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Spring Boot.TestUtilsApplication" />
       <item itemvalue="Spring Boot.TestUsersApplication" />
       <item itemvalue="Spring Boot.TestConfigApplication" />
       <item itemvalue="Spring Boot.TestEntityApplication" />
@@ -212,7 +227,9 @@
       <updated>1719239972451</updated>
       <workItem from="1719239973587" duration="2091000" />
       <workItem from="1719256372178" duration="2695000" />
-      <workItem from="1719315454087" duration="5050000" />
+      <workItem from="1719315454087" duration="6389000" />
+      <workItem from="1719345824977" duration="2078000" />
+      <workItem from="1719393935088" duration="4118000" />
     </task>
     <task id="LOCAL-00001" summary="created server">
       <option name="closed" value="true" />
@@ -246,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719325552920</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added module for users">
+      <option name="closed" value="true" />
+      <created>1719329063903</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719329063903</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +283,58 @@
     <MESSAGE value="added gateway,config" />
     <MESSAGE value="added module with entities" />
     <MESSAGE value="added module for items" />
-    <option name="LAST_COMMIT_MESSAGE" value="added module for items" />
+    <MESSAGE value="added module for users" />
+    <option name="LAST_COMMIT_MESSAGE" value="added module for users" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-utils/src/main/java/ru/mudan/testutils/resttemplate/UserRestBuilder.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-utils/src/main/java/ru/mudan/testutils/resttemplate/UserRestBuilder.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-utils/src/main/java/ru/mudan/testutils/resttemplate/UserRestBuilder.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-utils/src/main/java/ru/mudan/testutils/resttemplate/UserRestBuilder.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-users/src/main/java/ru/mudan/testusers/controller/UsersController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -7,6 +7,7 @@ import ru.mudan.testentity.entity.User;
 import ru.mudan.testusers.repository.UserRepository;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @Transactional
@@ -18,5 +19,9 @@ public class UserService {
     }
     public List<User> getAllUsers(){
         return userRepository.findAll();
+    }
+
+    public Optional<User> findById(Long id) {
+        return userRepository.findById(id);
     }
 }

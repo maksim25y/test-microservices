@@ -23,4 +23,8 @@ public class ItemService {
     public List<Item>getAllItemsByUserId(Long userId){
         return itemRepository.findAllByUserId(userId);
     }
+
+    public void addItem(Item item) {
+        itemRepository.save(item);
+    }
 }
