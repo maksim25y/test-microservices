@@ -6,6 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import ru.mudan.testentity.entity.Item;
 import ru.mudan.testtodo.dto.ItemDTO;
+import ru.mudan.testtodo.feign.UserFeignClient;
 import ru.mudan.testtodo.service.ItemService;
 import ru.mudan.testutils.resttemplate.UserRestBuilder;
 import ru.mudan.testutils.resttemplate.UserWebClientBuilder;
@@ -17,11 +18,13 @@ import java.util.stream.Collectors;
 @RequestMapping("/items")
 public class ItemController {
     private final ItemService itemService;
+    private UserFeignClient userFeignClient;
     private final UserRestBuilder userRestBuilder;
     private final UserWebClientBuilder userWebClientBuilder;
     @Autowired
-    public ItemController(ItemService itemService, UserRestBuilder userRestBuilder, UserWebClientBuilder userWebClientBuilder) {
+    public ItemController(ItemService itemService, UserFeignClient userFeignClient, UserRestBuilder userRestBuilder, UserWebClientBuilder userWebClientBuilder) {
         this.itemService = itemService;
+        this.userFeignClient = userFeignClient;
         this.userRestBuilder = userRestBuilder;
         this.userWebClientBuilder = userWebClientBuilder;
     }
@@ -37,14 +40,22 @@ public class ItemController {
     }
     @PostMapping("/add")
     public ResponseEntity addItem(@RequestBody Item item){
-        if(userWebClientBuilder.userExists(item.getUserId())){
+        if(userFeignClient.findByUserId(item.getUserId())!=null){
             itemService.addItem(item);
             return new ResponseEntity("Success", HttpStatus.OK);
         }
+//        userWebClientBuilder.asyncUserExists(item.getUserId()).subscribe(user->System.out.println("User - "+user));
+
+//        if(userWebClientBuilder.userExists(item.getUserId())){
+//            itemService.addItem(item);
+//            return new ResponseEntity("Success", HttpStatus.OK);
+//        }
+
 //        if(userRestBuilder.userExists(item.getUserId())){
 //            itemService.addItem(item);
 //            return new ResponseEntity("Success", HttpStatus.OK);
 //        }
+
         return new ResponseEntity("Error", HttpStatus.BAD_REQUEST);
     }
 }

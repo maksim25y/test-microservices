@@ -1,6 +1,7 @@
 package ru.mudan.testutils.resttemplate;
 
 import org.springframework.stereotype.Component;
+import reactor.core.publisher.Flux;
 import ru.mudan.testentity.entity.User;
 import org.springframework.web.reactive.function.client.WebClient;
 
@@ -25,6 +26,15 @@ public class UserWebClientBuilder {
             e.printStackTrace();
         }
         return false;
+    }
+    public Flux<User> asyncUserExists(Long id){
+//        для асинхронного вызова
+        Flux<User>fluxUser = WebClient.create(baseUrl)
+                .get()
+                .uri("/"+id)
+                .retrieve()
+                .bodyToFlux(User.class);
+        return fluxUser;
     }
 
 }

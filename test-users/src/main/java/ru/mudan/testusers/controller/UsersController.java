@@ -34,6 +34,6 @@ public class UsersController {
             User user = userOptional.get();
             return new ResponseEntity<>(new UserDTO(user.getId(),user.getName()),HttpStatus.OK);
         }
-        return new ResponseEntity("Not found",HttpStatus.BAD_REQUEST);
+        return new ResponseEntity("Not found",HttpStatus.NOT_FOUND);
     }
 }

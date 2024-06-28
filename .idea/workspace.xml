@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7756df58-4518-446b-8ff4-bd07ebcf9ab0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test-utils/src/main/java/ru/mudan/testutils/resttemplate/UserWebClientBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/UserFeignClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-items/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-items/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/TestItemsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/TestItemsApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-users/src/main/java/ru/mudan/testusers/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-users/src/main/java/ru/mudan/testusers/controller/UsersController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-utils/src/main/java/ru/mudan/testutils/resttemplate/UserWebClientBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-utils/src/main/java/ru/mudan/testutils/resttemplate/UserWebClientBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +41,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -77,12 +82,12 @@
     "Spring Boot.TestItemsApplication.executor": "Debug",
     "Spring Boot.TestServerApplication.executor": "Run",
     "Spring Boot.TestTodoApplication.executor": "Run",
-    "Spring Boot.TestUsersApplication.executor": "Debug",
+    "Spring Boot.TestUsersApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/NewIdeaApps/testApiMonolit",
+    "last_opened_file_path": "D:/NewIdeaApps/test-microservices",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -216,7 +221,9 @@
       <workItem from="1719256372178" duration="2695000" />
       <workItem from="1719315454087" duration="6389000" />
       <workItem from="1719345824977" duration="2078000" />
-      <workItem from="1719393935088" duration="5687000" />
+      <workItem from="1719393935088" duration="7216000" />
+      <workItem from="1719497891773" duration="14000" />
+      <workItem from="1719563354537" duration="3320000" />
     </task>
     <task id="LOCAL-00001" summary="created server">
       <option name="closed" value="true" />
@@ -266,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719400163952</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added webclient for synchronize calling">
+      <option name="closed" value="true" />
+      <created>1719407188392</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719407188392</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +295,8 @@
     <MESSAGE value="added module for items" />
     <MESSAGE value="added module for users" />
     <MESSAGE value="added calling microservice from microservice" />
-    <option name="LAST_COMMIT_MESSAGE" value="added calling microservice from microservice" />
+    <MESSAGE value="added webclient for synchronize calling" />
+    <option name="LAST_COMMIT_MESSAGE" value="added webclient for synchronize calling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -297,7 +313,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
-          <line>45</line>
+          <line>55</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -312,28 +328,48 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
-          <line>40</line>
+          <line>49</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
-          <line>39</line>
+          <line>48</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
-          <line>41</line>
+          <line>50</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test-utils/src/main/java/ru/mudan/testutils/resttemplate/UserWebClientBuilder.java</url>
-          <line>13</line>
+          <line>14</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test-utils/src/main/java/ru/mudan/testutils/resttemplate/UserWebClientBuilder.java</url>
-          <line>20</line>
+          <line>21</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
