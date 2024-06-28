@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7756df58-4518-446b-8ff4-bd07ebcf9ab0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/UserFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/FeignExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-items/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-items/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/TestItemsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/TestItemsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-users/src/main/java/ru/mudan/testusers/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-users/src/main/java/ru/mudan/testusers/controller/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-utils/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-utils/src/main/java/ru/mudan/testutils/resttemplate/UserWebClientBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-utils/src/main/java/ru/mudan/testutils/resttemplate/UserWebClientBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -223,7 +216,7 @@
       <workItem from="1719345824977" duration="2078000" />
       <workItem from="1719393935088" duration="7216000" />
       <workItem from="1719497891773" duration="14000" />
-      <workItem from="1719563354537" duration="3320000" />
+      <workItem from="1719563354537" duration="4873000" />
     </task>
     <task id="LOCAL-00001" summary="created server">
       <option name="closed" value="true" />
@@ -281,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719407188392</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added feign for users">
+      <option name="closed" value="true" />
+      <created>1719568282615</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719568282615</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +297,8 @@
     <MESSAGE value="added module for users" />
     <MESSAGE value="added calling microservice from microservice" />
     <MESSAGE value="added webclient for synchronize calling" />
-    <option name="LAST_COMMIT_MESSAGE" value="added webclient for synchronize calling" />
+    <MESSAGE value="added feign for users" />
+    <option name="LAST_COMMIT_MESSAGE" value="added feign for users" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -370,6 +372,21 @@
           <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
           <line>58</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/FeignExceptionHandler.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/FeignExceptionHandler.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/FeignExceptionHandler.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
