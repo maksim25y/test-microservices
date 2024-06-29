@@ -4,6 +4,7 @@ import com.google.common.io.CharStreams;
 import feign.Response;
 import feign.codec.ErrorDecoder;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.server.ResponseStatusException;
 
@@ -15,9 +16,9 @@ import java.nio.charset.Charset;
 public class FeignExceptionHandler implements ErrorDecoder {
     @Override
     public Exception decode(String s, Response response) {
-        switch (response.status()){
-            case 404:
-                return new ResponseStatusException(HttpStatus.NOT_FOUND,readMessage(response));
+        // Обрабатываем только ошибки сервера (5xx)
+        if (response.status() >= 500) {
+            return new ResponseStatusException(HttpStatus.valueOf(response.status()), readMessage(response));
         }
         return null;
     }

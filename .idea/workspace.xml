@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7756df58-4518-446b-8ff4-bd07ebcf9ab0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/FeignExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-items/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-items/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/FeignExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/FeignExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/UserFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/UserFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-users/src/main/java/ru/mudan/testusers/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-users/src/main/java/ru/mudan/testusers/controller/UsersController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,47 +62,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.TestConfigApplication.executor": "Run",
-    "Spring Boot.TestGatewayApplication.executor": "Run",
-    "Spring Boot.TestItemsApplication.executor": "Debug",
-    "Spring Boot.TestServerApplication.executor": "Run",
-    "Spring Boot.TestTodoApplication.executor": "Run",
-    "Spring Boot.TestUsersApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/NewIdeaApps/test-microservices",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "File.Encoding",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.TestConfigApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TestGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TestItemsApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.TestServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TestTodoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TestUsersApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/NewIdeaApps/test-microservices&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -182,11 +186,11 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.TestUtilsApplication" />
+      <item itemvalue="Spring Boot.TestServerApplication" />
       <item itemvalue="Spring Boot.TestUsersApplication" />
       <item itemvalue="Spring Boot.TestConfigApplication" />
       <item itemvalue="Spring Boot.TestEntityApplication" />
       <item itemvalue="Spring Boot.TestGatewayApplication" />
-      <item itemvalue="Spring Boot.TestServerApplication" />
       <item itemvalue="Spring Boot.TestItemsApplication" />
     </list>
     <recent_temporary>
@@ -216,7 +220,8 @@
       <workItem from="1719345824977" duration="2078000" />
       <workItem from="1719393935088" duration="7216000" />
       <workItem from="1719497891773" duration="14000" />
-      <workItem from="1719563354537" duration="4873000" />
+      <workItem from="1719563354537" duration="18708000" />
+      <workItem from="1719648813353" duration="613000" />
     </task>
     <task id="LOCAL-00001" summary="created server">
       <option name="closed" value="true" />
@@ -282,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719568282615</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added exception handler for feign">
+      <option name="closed" value="true" />
+      <created>1719570032783</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719570032783</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +311,8 @@
     <MESSAGE value="added calling microservice from microservice" />
     <MESSAGE value="added webclient for synchronize calling" />
     <MESSAGE value="added feign for users" />
-    <option name="LAST_COMMIT_MESSAGE" value="added feign for users" />
+    <MESSAGE value="Added exception handler for feign" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added exception handler for feign" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -315,7 +329,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
-          <line>55</line>
+          <line>61</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -330,17 +344,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
-          <line>49</line>
+          <line>55</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
-          <line>48</line>
+          <line>54</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
-          <line>50</line>
+          <line>56</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -355,40 +369,124 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
-          <line>42</line>
+          <line>48</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
-          <line>43</line>
+          <line>49</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
-          <line>44</line>
+          <line>50</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
-          <line>58</line>
+          <line>64</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/FeignExceptionHandler.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="21" />
+          <line>25</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/FeignExceptionHandler.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/FeignExceptionHandler.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/FeignExceptionHandler.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/FeignExceptionHandler.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/FeignExceptionHandler.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/FeignExceptionHandler.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/FeignExceptionHandler.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/FeignExceptionHandler.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/UserFeignClient.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/controller/ItemController.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/FeignExceptionHandler.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/UserFeignClient.java</url>
           <line>18</line>
-          <option name="timeStamp" value="22" />
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/FeignExceptionHandler.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="23" />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test-items/src/main/java/ru/mudan/testtodo/feign/UserFeignClient.java</url>
+          <line>13</line>
+          <properties class="ru.mudan.testtodo.feign.UserFeignClient" method="findByUserId">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="item" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

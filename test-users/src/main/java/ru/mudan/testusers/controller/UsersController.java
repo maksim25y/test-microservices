@@ -28,11 +28,11 @@ public class UsersController {
         return new ResponseEntity<>(usersList, HttpStatus.OK);
     }
     @GetMapping("/{id}")
-    public ResponseEntity<UserDTO>getById(@PathVariable Long id){
+    public ResponseEntity<User>getById(@PathVariable Long id){
         Optional<User> userOptional = userService.findById(id);
         if(userOptional.isPresent()){
             User user = userOptional.get();
-            return new ResponseEntity<>(new UserDTO(user.getId(),user.getName()),HttpStatus.OK);
+            return new ResponseEntity<>(new User(user.getId(),user.getName()),HttpStatus.OK);
         }
         return new ResponseEntity("Not found",HttpStatus.NOT_FOUND);
     }

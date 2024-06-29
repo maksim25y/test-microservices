@@ -5,11 +5,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import ru.mudan.testentity.entity.Item;
+import ru.mudan.testentity.entity.User;
 import ru.mudan.testtodo.dto.ItemDTO;
 import ru.mudan.testtodo.feign.UserFeignClient;
 import ru.mudan.testtodo.service.ItemService;
-import ru.mudan.testutils.resttemplate.UserRestBuilder;
-import ru.mudan.testutils.resttemplate.UserWebClientBuilder;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -18,15 +17,13 @@ import java.util.stream.Collectors;
 @RequestMapping("/items")
 public class ItemController {
     private final ItemService itemService;
-    private UserFeignClient userFeignClient;
-    private final UserRestBuilder userRestBuilder;
-    private final UserWebClientBuilder userWebClientBuilder;
+    private final UserFeignClient userFeignClient;
+    //private UserRestBuilder userRestBuilder;
+    //private UserWebClientBuilder userWebClientBuilder;
     @Autowired
-    public ItemController(ItemService itemService, UserFeignClient userFeignClient, UserRestBuilder userRestBuilder, UserWebClientBuilder userWebClientBuilder) {
+    public ItemController(ItemService itemService, UserFeignClient userFeignClient) {
         this.itemService = itemService;
         this.userFeignClient = userFeignClient;
-        this.userRestBuilder = userRestBuilder;
-        this.userWebClientBuilder = userWebClientBuilder;
     }
     @GetMapping("/all")
     public ResponseEntity<List<ItemDTO>> getAllItems(){
@@ -40,10 +37,19 @@ public class ItemController {
     }
     @PostMapping("/add")
     public ResponseEntity addItem(@RequestBody Item item){
-        if(userFeignClient.findByUserId(item.getUserId())!=null){
-            itemService.addItem(item);
-            return new ResponseEntity("Success", HttpStatus.OK);
+        ResponseEntity<User>result = userFeignClient.findByUserId(item.getUserId());
+        if(result==null){
+            return new ResponseEntity("Система пользователей недоступна", HttpStatus.BAD_REQUEST);
         }
+        if(result!=null){
+              itemService.addItem(item);
+              return new ResponseEntity("Success", HttpStatus.OK);
+        }
+
+//        if(userFeignClient.findByUserId(item.getUserId())!=null){
+//            itemService.addItem(item);
+//            return new ResponseEntity("Success", HttpStatus.OK);
+//        }
 //        userWebClientBuilder.asyncUserExists(item.getUserId()).subscribe(user->System.out.println("User - "+user));
 
 //        if(userWebClientBuilder.userExists(item.getUserId())){
