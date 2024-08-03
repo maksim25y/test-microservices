@@ -4,7 +4,7 @@
 1. Склонируйте репозиторий
 
 ```shell
-git clone git@github.com:maksim25y/LibraryApp.git
+git clone git@github.com:maksim25y/TranslateTask.git
 ```
 
 2. Скачайте и установите Docker
@@ -16,18 +16,8 @@ git clone git@github.com:maksim25y/LibraryApp.git
 Для этого откройте терминал и перейдите в папку репозитория
 
 ```shell
-cd LibraryAppWithSpringBoot
+cd TranslateTask
 ```
-
-#### Переменные окружения в .env
-
-Описание:
-1. POSTGRES_USER - логин для БД
-2. POSTGRES_PASSWORD - пароль от базы данных
-3. SPRING_DATASOURCE_URL - адрес БД
-4. SPRING_DATASOURCE_USERNAME - логин для БД, но для Spring
-5. SPRING_DATASOURCE_PASSWORD - пароль для БД, но для Spring
-
 Далее введите команду
 
 ```shell
