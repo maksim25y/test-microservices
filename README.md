@@ -43,6 +43,8 @@ docker-compose up --build
 ![image](https://github.com/user-attachments/assets/20800c95-52d4-4765-b099-033de6c16418)
 ![image](https://github.com/user-attachments/assets/832b5753-841d-4883-9cae-ecfffbca23d1)
 </details>
+![image](https://github.com/user-attachments/assets/972b3364-72ef-40f5-94a5-c50c3b6e617b)
+
 <details><summary>Доступные языки</summary>
 en - English
 af - Afrikaans
