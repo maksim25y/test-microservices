@@ -13,7 +13,7 @@ git clone git@github.com:maksim25y/TranslateTask.git
 
 3. Запустите сайт в Docker
 
-Для этого откройте терминал и перейдите в папку репозитория
+Для этого запустите Docker, откройте терминал и перейдите в папку репозитория
 
 ```shell
 cd TranslateTask
