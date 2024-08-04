@@ -35,7 +35,7 @@ docker-compose up --build
 1) Текст для перевода
 2) Исходный язык
 3) Целевой язык 
-![image](https://github.com/user-attachments/assets/5f15b6a1-94a6-43af-8f5b-3a34fda84865)
+![image](https://github.com/user-attachments/assets/508e76a6-7363-488c-a941-23dc7ebc5df0)
 После ввода необходимо нажать на кнопку "Перевод".
 Если данные введены корректно, то будет осуществлён перевод. Переведённый текст будет отображен под кнопкой.
 ![image](https://github.com/user-attachments/assets/f086aa95-690c-4e9b-a6ac-8284259444a7)
